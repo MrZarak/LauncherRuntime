@@ -59,9 +59,9 @@ dependencies {
     implementation "pro.gravit.launcher:launcher-ws-api:5.2.0"
     implementation "pro.gravit.launcher:launcher-client-api:5.2.0"
     implementation "pro.gravit.utils.enfs:enfs:1.0.0-SNAPSHOT"
-    implementation "io.netty:netty-codec-http:4.1.48.Final"
+    implementation 'io.netty:netty-codec-http:4.1.66.Final'
     implementation 'com.github.oshi:oshi-core:4.5.2'
-    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.google.code.gson:gson:2.8.7'
 }
 
 wrapper {
